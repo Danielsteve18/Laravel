@@ -1,4 +1,3 @@
-@php use Inertia\Inertia; @endphp
 
 <!DOCTYPE html>
 <html lang="en">
