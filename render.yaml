@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: steveapp
+    env: docker
+    plan: free
+    dockerfilePath: docker/php/Dockerfile
+    buildFilter:
+      paths:
+        - docker/php/**
+        - ./**
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: APP_DEBUG
+        value: false
+      - key: APP_KEY
+        generateValue: true
+      - key: DB_CONNECTION
+        value: mongodb
+      - key: MONGODB_URL
+        value:  mongodb+srv://montanoarboleda1:7ie2VT5IHE1zI36x@cluster0.rb7fm.mongodb.net/User_LaravelFirst?retryWrites=true&w=majority&appName=Cluster0
+
+
+
+
+
