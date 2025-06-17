@@ -1,7 +1,7 @@
 const API_URL = 'http://localhost:8000'; // Ajusta según tu entorno
 
 export const registrarUsuario = async (datos) => {
-    console.log(datos)
+   
     try {
         const response = await axios.post(`${API_URL}/singinUsers`, datos,
             {
