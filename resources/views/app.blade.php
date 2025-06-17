@@ -11,18 +11,18 @@
   @else
     @php
       $manifest = json_decode(file_get_contents(public_path('build/manifest.json')), true);
-      $jsFile = $manifest['resources/js/app.js']['file'] ?? '';
-      $cssFiles = $manifest['resources/js/app.js']['css'] ?? [];
     @endphp
 
-    @foreach ($cssFiles as $css)
+    {{-- Estilos CSS (puede haber más de uno) --}}
+    @foreach ($manifest['resources/js/app.js']['css'] ?? [] as $css)
       <link rel="stylesheet" href="{{ asset('build/' . $css) }}">
     @endforeach
-    <script type="module" src="{{ asset('build/' . $jsFile) }}"></script>
+
+    {{-- Script JS --}}
+    <script type="module" src="{{ asset('build/' . $manifest['resources/js/app.js']['file']) }}"></script>
   @endif
 </head>
 <body>
   @inertia
 </body>
 </html>
-
