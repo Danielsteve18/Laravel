@@ -35,6 +35,7 @@ RUN docker-php-ext-install \
 COPY public/build /var/www/public/build
 
 
+
 # Instalar Composer
 COPY --from=composer:2.6 /usr/bin/composer /usr/bin/composer
 
