@@ -1,0 +1,48 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-NS0_ynA5.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/Pages/private/00-reesorces/book-2.svg": {
+    "file": "assets/book-2-Djhu2Mcz.svg",
+    "src": "resources/js/Pages/private/00-reesorces/book-2.svg"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-BJD1AlhV.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app-DyfMcpx4.css"
+    ],
+    "assets": [
+      "assets/gato-negro-fondo-blanco-EavJB8kp.png",
+      "assets/logo-_cUAdIX-.svg",
+      "assets/laravel-DL5_Xki9.svg",
+      "assets/gato-en-la-nive-removebg-preview-6H-fNkzZ.png",
+      "assets/humanoide-BJ9Iu7JS.png",
+      "assets/book-2-Djhu2Mcz.svg"
+    ]
+  },
+  "resources/js/components/00-resource/gato-en-la-nive-removebg-preview.png": {
+    "file": "assets/gato-en-la-nive-removebg-preview-6H-fNkzZ.png",
+    "src": "resources/js/components/00-resource/gato-en-la-nive-removebg-preview.png"
+  },
+  "resources/js/components/00-resource/gato-negro-fondo-blanco.png": {
+    "file": "assets/gato-negro-fondo-blanco-EavJB8kp.png",
+    "src": "resources/js/components/00-resource/gato-negro-fondo-blanco.png"
+  },
+  "resources/js/components/00-resource/humanoide.png": {
+    "file": "assets/humanoide-BJ9Iu7JS.png",
+    "src": "resources/js/components/00-resource/humanoide.png"
+  },
+  "resources/js/components/00-resource/laravel.svg": {
+    "file": "assets/laravel-DL5_Xki9.svg",
+    "src": "resources/js/components/00-resource/laravel.svg"
+  },
+  "resources/js/components/00-resource/logo.svg": {
+    "file": "assets/logo-_cUAdIX-.svg",
+    "src": "resources/js/components/00-resource/logo.svg"
+  }
+}
